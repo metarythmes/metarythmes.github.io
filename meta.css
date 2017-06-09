@@ -30,6 +30,7 @@
 			background-repeat: repeat-x;
 			background-repeat: repeat-y;
 			color:  #FFF;
+			z-index:40;
 		}
 
 		img {
@@ -52,19 +53,18 @@
 		}
 		
 		#contenu {
-			margin-top: 0px;
-			margin-left: 0px;
+			margin-top: 40px;
+			margin-left: 40px;
 		}
 		
 		#contenu {
 			position: relative;
 			z-index: 2;
 		}
-		
 		#contenuno {
-			margin-top: 80px;
-			margin-left: 230px;
-			z-index: 40;
+			margin-top: 40px;
+			margin-left: 200px;
+			z-index: 4;
 		}
 		
 
@@ -80,6 +80,10 @@
 
 		sub2 {
 		background-color: rgba(250,170,0,0.4);
+		}
+
+		sub3 {
+		background-color: rgba(0,250,219,0.4);
 		}
 
 
