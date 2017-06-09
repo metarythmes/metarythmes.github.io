@@ -27,6 +27,8 @@
 			margin-right: 2rem;
 			background-color: #A66EA7;
 			background-image: url("image-0051.png");
+			background-repeat: repeat-x;
+			background-repeat: repeat-y;
 			color:  #FFF;
 		}
 
