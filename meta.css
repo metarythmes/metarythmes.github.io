@@ -24,7 +24,7 @@
 
 		body {
 			margin-top: 120px;
-			margin-left: 260px;
+			margin-left: 200px;
 			background-color: #A66EA7;
 			background-image: url("image-0051.png");
 			background-repeat: repeat-x;
@@ -105,7 +105,7 @@
 		
 		p {
 			z-index: 2;
-			padding-right: 300px; /* este es el que cambia el acá txt */
+			padding-right: 480px; /* este es el que cambia el acá txt */
 			font-family: MikadoRegular;
 			src: url("MikadoRegular.otf");
 			line-height: 0.95rem;
