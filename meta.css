@@ -1,49 +1,63 @@
 /* va el dropdown */
 
-		.dropdown {
-    		position: relative;
-    		display: inline-block;
-		}
+.dropbtn {
+    background-color: rgba(232, 0, 124, 0.5);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-family: MikadoRegular;
+	src: url("MikadoRegular.otf");
+    border: none;
+    cursor: pointer;
+}
 
-		.dropdown-content {
-    		display: none;
-    		position: absolute;
-    		background-color: rgba(255, 0, 170, 0.3);
-			width: 100px;
-    		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
-    		padding: 12px 16px;
-    		z-index: 20;
-    		cursor: crosshair;
-    		color:#fff;
-		}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
-		.dropdown:hover .dropdown-content {
-    		display: block;
-			}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(232, 0, 124, 0.5);
+	width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+    padding: 12px 16px;
+    z-index: 20;
+    color:#fff;
+}
+
+.dropdown-content a:hover {background-color: #898989}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(64, 255, 215, 0.5);;
+}
 
 
-		body {
-			margin-top: 120px;
-			margin-left: 200px;
-			background-color: #A66EA7;
-			background-image: url("image-0051.png");
-			background-repeat: repeat-x;
-			background-repeat: repeat-y;
-			color:  #FFF;
-			z-index:40;
-		}
+body {
+	margin-top: 360px;
+	margin-left: -100px;
+	background-color: #A66EA7;
+	background-image: url("image-0051.png");
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	color:  #FFF;
+	z-index:4;
+}
 
-		img {
-			z-index: 1;
-			position: fixed;
-			left: 20%;
-			top: 40%;
-			width: 380px;
-			height: auto;
-			opacity: 1;
-			-webkit-transform: translateX(-50%) translateY(-50%);
-			transform: translateX(-50%) translateY(-50%);
-		}
+img {
+	z-index: 1;
+	position: fixed;
+	left: 40px;
+	top: 20px;
+	width: 380px;
+	height: auto;
+	opacity: 1;
+}
 		
 		canvas {
 			position: fixed;
@@ -53,98 +67,98 @@
 		}
 		
 		#contenu {
-			margin-top: 40px;
-			margin-left: 40px;
+			margin-top: 80px;
+			margin-left: 230px;
 		}
 		
 		#contenu {
 			position: relative;
 			z-index: 2;
 		}
+		
 		#contenuno {
-			margin-top: 40px;
-			margin-left: 200px;
-			z-index: 4;
+			margin-top: 80px;
+			margin-left: 230px;
+						z-index: 2;
+
 		}
 		
-
-
-
-		sub {
-		background-color: rgba(10,10,10,0.4);
-		}
-
-		sub1 {
-		background-color: rgba(255,0,170,0.35);
-		}
-
-		sub2 {
-		background-color: rgba(250,170,0,0.4);
-		}
-
-		sub3 {
-		background-color: rgba(0,250,219,0.4);
-		}
-
-
-		a:link,
-		a:visited {
-			text-decoration: none;
-			background-color: rgba(255,201,3,0.65);
-			/*background-color: rgba(255, 255, 255, 1);*/
-			color: #000;
-		}
-
-		a1:link,
-		a1:visited {
-			text-decoration: none;
-			background-color: rgba(255,0,255,0.65);
-			/*background-color: rgba(255, 255, 255, 1);*/
-			color: #000;
-		}
 		
-		p {
-			z-index: 2;
-			padding-right: 480px; /* este es el que cambia el acá txt */
-			font-family: MikadoRegular;
-			src: url("MikadoRegular.otf");
-			line-height: 0.95rem;
-			font-size: 14px;
-		}
+sub {
+    background-color: rgba(10,10,10,0.4);
+}
 
-			p2 {
-			z-index: 2;
-			padding-right: 300px; /* este es el que cambia el acá txt */
-			text-align: right;
-		}
+sub1 {
+	background-color: rgba(255,0,170,0.35);
+}
 
-		p.small {
-    		line-height: 10;
-		}
+sub2 {
+	background-color: rgba(250,170,0,0.4);
+}
 
-		p.big {
-    		line-height: 2;
-		}
+sub3 {
+	background-color: rgba(0,250,219,0.4);
+}
+
+
+a:link,
+a:visited {
+	text-decoration: none;
+	background-color: rgba(255,201,3,0.65);
+	/*background-color: rgba(255, 255, 255, 1);*/
+	color: #000;
+}
+
+a1:link,
+a1:visited {
+	text-decoration: none;
+	background-color: rgba(255,0,255,0.65);
+	/*background-color: rgba(255, 255, 255, 1);*/
+	color: #000;
+}
 		
-		@font-face {
-			font-family: MikadoRegular;
-			src: url("MikadoRegular.otf");
-		}
+p {
+	z-index: 2;
+	padding-right: 680px; /* este es el que cambia el acá txt */
+	font-family: MikadoRegular;
+	src: url("MikadoRegular.otf");
+	line-height: 0.95rem;
+	font-size: 14px;
+}
+
+p2 {
+	z-index: 2;
+	padding-right: 300px; /* este es el que cambia el acá txt */
+	text-align: right;
+}
+
+p.small {
+    line-height: 10;
+}
+
+p.big {
+    line-height: 2;
+}
 		
-		div {
-			font-family: MikadoRegular;
-		}
+@font-face {
+	font-family: MikadoRegular;
+	src: url("MikadoRegular.otf");
+}
 		
-		#main {
-			font-family: MikadoRegular;
-		}
+div {
+	font-family: MikadoRegular;
+}
 		
-		#author {
-			font-size: 1rem;
-			padding-top: 2rem;
-		}
-		/* #### Mobile Phones Portrait #### */
+#main {
+	font-family: MikadoRegular;
+}
 		
+#author {
+	font-size: 1rem;
+	padding-top: 2rem;
+}
+
+/* #### Mobile Phones Portrait #### */		
 /* Responsive Styles */
 
 @media all and (max-width:591px){
